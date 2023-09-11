@@ -1,8 +1,9 @@
-.inhoud {
+#inhoud {
+    position:relative;
     margin-top: 46px;
 }
 
-.menu {
+#menu {
     position: fixed;
     overflow: hidden;
     width: 100%;
@@ -43,23 +44,42 @@ table, td, th {
     border: 2px solid;
 }
 
-#gallery {
+.gallery {
     margin: 5px;
     border: 1px solid #ccc;
     float: left;
     width: 180px;
 }
 
-#gallery:hover {
+.gallery:hover {
     border: 1px solid #777;
 }
 
-#gallery img {
+.gallery img {
     width: 100%;
     height: auto;
 }
 
-#desc {
+.desc {
     padding: 15px;
     text-align: center;
-  }
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+  
