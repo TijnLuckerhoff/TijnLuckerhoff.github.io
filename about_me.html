@@ -7,38 +7,40 @@
     <title>Wie ben ik?</title>
   </head>
   <body>
-      
-    <div id="menu">
-      <ul>
-        <li><a href="index.html">Hoofdpagina</a></li>
-        <li><a class="huidig" href="about_me.html">Wie ben ik?</a></li>
-        <li><a href="vragen.html">FAQ</a></li>
-        <li><a href="dashboard.html">Dashboard</a></li>
-        <li><a href="link.html">Links</a></li>
-        <li><a href="blog.html">Blogs</a></li>
-      </ul>
-    </div>
-
+    <ul>
+      <li><a href="index.html">Hoofdpagina</a></li>
+      <li><a class="huidig" href="about_me.html">Wie ben ik?</a></li>
+      <li><a href="vragen.html">FAQ</a></li>
+      <li><a href="dashboard.html">Dashboard</a></li>
+      <li><a href="blog.html">Blogs</a></li>
+      <li class="dropdown">
+        <a class="dropbtn">Links</a>
+        <div class="dropdown-content">
+          <a target="_blank" href="https://learn.hz.nl/my/">HZ Learn</a>
+          <a target="_blank" href="https://teams.microsoft.com/_#/conversations/newchat?ctx=chat">Teams</a>
+          <a target="_blank" href="https://outlook.office.com/mail/">Outlook</a>
+          <a target="_blank" href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox">Persoonlijke Gmail</a>
+        </div>
+      </li>
+      <li style="float: right;"><img src="C:/Users/W11/Documents/html_oefening/img/hz.png"></li>
+    </ul>
     <div id="inhoud">
       <main>
         <article>
           <h1>Persoonlijke gegevens</h1>
-          <table>
-            <tr><td><strong>Naam</strong></td><td>Tijn Luckerhoff</td></tr>
-            <tr><td><strong>Leeftijd</strong></td><td>17 jaar</td></tr>
-            <tr><td><strong>Woonplaats + woonsituatie</strong></td><td>Bergen op Zoom, Burgemeester van Hasselstraat 62, Ik blijf bij mijn ouders wonen.</td></tr>
-            <tr><td><strong>Vooropleiding(en) + profiel</strong></td><td>Havo met een N&T profiel op het Roncalli (BoZ)</td></tr>
-          </table>
+          <div class="flex">
+            <table>
+              <tr><td><strong>Naam</strong></td><td>Tijn Luckerhoff</td></tr>
+              <tr><td><strong>Leeftijd</strong></td><td>17 jaar</td></tr>
+              <tr><td><strong>Woonplaats + woonsituatie</strong></td><td>Bergen op Zoom, Burgemeester van Hasselstraat 62, Ik blijf bij mijn ouders wonen.</td></tr>
+              <tr><td><strong>Vooropleiding(en) + profiel</strong></td><td>Havo met een N&T profiel op het Roncalli (BoZ)</td></tr>
+            </table>
+            <img src="C:/Users/W11/Documents/html_oefening/img/tijn.jpg" alt="Tijn Luckerhoff" width="120" height="150">
+          </div>
+          <h1>Bijbaan en vrije tijd</h1>
+          <p>Ik heb geen bijbaan. Ik zit ook niet op een sport, maar ik skate soms 1 of 2 rondjes om een groot meer. Ik zal dit nog steeds kunnen doen als ik studeer, maar ik kan het alleen in de avond doen.</p>
         </article>
       </main>
-      <br/>
-      <div class="dropdown">
-        <img src="/img/IMG20230810192914.jpg" alt="Tijn Luckerhoff" width="120" height="160">
-        <div class="dropdown-content">
-          <img src="/img/IMG20230810192914.jpg" alt="Tijn Luckerhoff" width="300" height="400">
-        </div>
-      </div>
     </div>
-    
   </body>
 </html>
