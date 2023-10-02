@@ -2,14 +2,14 @@ body {
     margin: 0%;
 }
 
-#inhoud {
+.inhoud {
     position:relative;
     padding: 0px 8px 8px;
     top: 50px;
 }
 
-table, td, th {
-    border: 2px solid;
+table {
+    border: 1px solid;
 }
 
 /* navigatiebalk */
