@@ -1,17 +1,29 @@
 body {
     margin: 0%;
     font-family: Arial, Helvetica, sans-serif;
+
+}
+
+html {
     background-image: url('/img/achtergrond.jpg');
     background-repeat: no-repeat;
-    background-attachment: scroll;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .swot {
     width: 600px;
 }
 
-p, table {
+.tijn {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    width: 240px;
+    height: 360px;
+}
+
+p, li,  table {
     font-size: large;
 }
 
@@ -22,7 +34,7 @@ h1 {
 .inhoud {
     position:relative;
     padding: 0px 20px 20px;
-    top: 70px;
+    top: 50px;
 }
 
 /* table styling */
@@ -30,6 +42,7 @@ table {
     border: 1px solid black;
     text-align: center;
     border-radius: 5px;
+    margin-top: 10px;
 }
 
 .standard td {
@@ -45,6 +58,7 @@ th {
 
 /* navigatiebalk */
 nav ul {
+    top: 0;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -113,11 +127,12 @@ nav .dropdown:hover .dropdown-content {
 /* blogs met fotos waar je op klikt */
 #gallery {
     margin: 5px;
-    border: 2px solid blue;
+    border: 2px solid lightblue;
     float: left;
     width: 340px;
     padding: 5px;
     max-height: 340px;
+    background-color: lightgrey;
 }
 
 #gallery:hover {
@@ -136,6 +151,11 @@ nav .dropdown:hover .dropdown-content {
     font-size: large;
 }
 
+#gallery a {
+    text-decoration: none;
+    color: black;
+}
+
 /* images */
 img {
     border: 1px solid black;
@@ -152,4 +172,5 @@ img {
     max-width: 1550px;
     margin: 0 auto;
     justify-content: flex-start;
+    margin-top: 25px;
 }
